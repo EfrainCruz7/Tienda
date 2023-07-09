@@ -36,7 +36,6 @@ function eliminarCurso(e)
     {
         const cursoId = e.target.getAttribute('data-id');
 
-        //
         articulosCarrito=articulosCarrito.filter(curso=>curso.id !== cursoId);
         //console.log(articulosCarrito);
         CarritoHTML();
